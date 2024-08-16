@@ -1,0 +1,55 @@
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.category {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  width: calc(50% - 20px);
+}
+
+.widgets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.add-widget-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: calc(50% - 10px);
+  margin-top: 10px;
+}
+
+.add-widget-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-widget-form input,
+.add-widget-form select {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.add-widget-form button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
